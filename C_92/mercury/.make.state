@@ -1,0 +1,20 @@
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+.INIT:
+	echo "Copyright (c) 1992 by Roadnet Technologies, Inc."
+	echo "Copyright (c) 1992 by United Parcel Service of America."
+	echo "All rights reserved."
+	echo ""
+remoteNote.o:	remoteNote.h /usr/include/sys/ioctl.h /usr/include/sys/errno.h /usr/include/fcntl.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/sys/types.h /usr/include/sys/feature_tests.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/sys/isa_defs.h /usr/include/sys/machtypes.h /usr/include/sys/select.h /usr/include/sys/time.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/time.h /usr/include/sys/siginfo.h /usr/include/sys/machsig.h
+remoteNote.o:	/usr/include/sys/fcntl.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/ctype.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/sys/stat.h /usr/openwin/include/xview/xview.h /usr/openwin/include/xview/xview_xvin.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/signal.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/sys/signal.h /usr/include/sys/unistd.h /usr/include/sys/procset.h /usr/openwin/include/pixrect/pixrect.h
+remoteNote.o:	/usr/openwin/include/pixrect/pr_planegroups.h /usr/openwin/include/pixrect/pr_util.h /usr/openwin/include/pixrect/memvar.h /usr/openwin/include/pixrect/pixfont.h /usr/openwin/include/pixrect/traprop.h /usr/openwin/include/pixrect/pr_line.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/stdlib.h /usr/openwin/include/xview/xv_c_types.h /usr/openwin/include/xview/generic.h /usr/openwin/include/xview/pkg_public.h /usr/openwin/include/xview/pkg.h
+remoteNote.o:	/usr/openwin/include/xview/attr.h /usr/openwin/include/xview/base.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/string.h /usr/include/malloc.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/errno.h /usr/openwin/include/xview/notify.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/stdio.h /usr/include/sys/wait.h /usr/include/sys/resource.h /usr/include/sys/ucontext.h /usr/include/sys/regset.h /usr/include/v7/sys/privregs.h
+remoteNote.o:	/usr/include/v7/sys/psr.h /usr/include/sys/fsr.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/stdarg.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/va-sparc.h /usr/openwin/include/xview/xv_error.h /usr/openwin/include/xview/sun.h /usr/openwin/include/xview/server.h /usr/openwin/include/xview/screen.h /usr/openwin/include/xview/pixwin.h /usr/openwin/include/xview/rect.h /usr/openwin/include/xview/rectlist.h /usr/openwin/include/xview/win_input.h
+remoteNote.o:	/usr/openwin/include/X11/Xlib.h /usr/openwin/include/X11/X.h /usr/openwin/include/X11/Xfuncproto.h /usr/openwin/include/X11/Xosdefs.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/stddef.h /usr/openwin/include/xview/win_event.h /usr/openwin/include/xview/xv_version.h /usr/openwin/include/xview/icon.h /usr/openwin/include/xview/window.h /usr/openwin/include/xview/drawable.h /usr/openwin/include/xview/attrol.h /usr/openwin/include/xview/svrimage.h
+remoteNote.o:	/usr/openwin/include/xview/frame.h /usr/openwin/include/xview/openmenu.h /usr/openwin/include/xview/panel.h /usr/openwin/include/xview/canvas.h /usr/openwin/include/xview/openwin.h /usr/openwin/include/xview/font.h /usr/openwin/include/xview/scrollbar.h /usr/openwin/include/xview/xv_xrect.h /usr/openwin/include/xview/cms.h /usr/openwin/include/xview/notice.h ../icons/memo.icon ../icons/memo2.icon ../icons/memoexample.icon ../icons/memomask.icon ../icons/memo2mask.icon
+remoteNote.o:	
+	gcc -I/usr/openwin/include -I/usr/demo/SOUND  -c  remoteNote.c
+.BUILT_LAST_MAKE_RUN:
+mercury:	/usr/lib/libmp.so.1 /usr/lib/libintl.so.1 /usr/lib/libw.so.1 /usr/lib/libdl.so.1 /usr/lib/libnsl.so.1 /usr/lib/libsocket.so.1 /usr/openwin/lib/libXext.so.0 /usr/lib/libc.so /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/libgcc.a /usr/openwin/lib/libX11.so /usr/openwin/lib/libolgx.so /usr/openwin/lib/libxview.so 
+	gcc -L/usr/openwin/lib  -o a.out remoteNote.o  -L. /usr/demo/SOUND/lib/libaudio.a -lxview -lolgx -lX11 /usr/demo/SOUND/lib/libaudio.a
+	mv a.out mercury

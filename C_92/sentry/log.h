@@ -1,0 +1,15 @@
+defconicon.h was moved to f1.h
+deficon.h was moved to f2.h
+dogicon.h was moved to f3.h
+iconsetup.h was moved to f4.h
+list.h was moved to f5.h
+play.h was moved to f6.h
+seekcreate.h was moved to f7.h
+seekmain.h was moved to f8.h
+seekxview.h was moved to f9.h
+sentry.h was moved to f10.h
+sentrycreate.h was moved to f11.h
+sentryicon.h was moved to f12.h
+sentryx.h was moved to f13.h
+setupicons.h was moved to f14.h
+sort.h was moved to f15.h

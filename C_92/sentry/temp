@@ -1,0 +1,300 @@
+Copyright (c) 1992 by Roadnet Technologies, Inc.
+Copyright (c) 1992 by United Parcel Service of America.
+All rights reserved.
+
+cc -I/usr/demo/SOUND -I/usr/openwin//share/include -I. -DMAIN  -c  sentry.c
+"./seekmain.h", line 20: warning: macro redefined: TEMPFILE
+"./sentry.h", line 318: syntax error before or at: item
+"./sentry.h", line 318: warning: undefined or missing type for: item
+"./sentry.h", line 318: warning: undefined or missing type for: int
+"./sentry.h", line 325: identifier redeclared: readdir
+	current : function(pointer to char, pointer to char, int) returning int
+	previous: function(pointer to struct {int dd_fd, int dd_loc, int dd_size, pointer to char dd_buf}) returning pointer to struct dirent ... : "/usr/include/dirent.h", line 55
+"./sentry.h", line 344: syntax error before or at: item
+"./sentry.h", line 344: warning: undefined or missing type for: item
+"./sentry.h", line 344: warning: undefined or missing type for: Event
+"./sentry.h", line 348: syntax error before or at: item
+"./sentry.h", line 348: warning: undefined or missing type for: item
+"./sentry.h", line 348: warning: undefined or missing type for: Event
+"./sentry.h", line 352: syntax error before or at: Panelitem
+"./sentry.h", line 352: warning: undefined or missing type for: Panelitem
+"./sentry.h", line 356: syntax error before or at: item
+"./sentry.h", line 356: warning: undefined or missing type for: item
+"./sentry.h", line 356: warning: undefined or missing type for: Event
+"./sentry.h", line 360: syntax error before or at: item
+"./sentry.h", line 360: warning: undefined or missing type for: item
+"./sentry.h", line 360: warning: undefined or missing type for: Event
+"./sentry.h", line 364: syntax error before or at: item
+"./sentry.h", line 364: warning: undefined or missing type for: item
+"./sentry.h", line 364: warning: undefined or missing type for: Event
+"./sentry.h", line 368: syntax error before or at: item
+"./sentry.h", line 368: warning: undefined or missing type for: item
+"./sentry.h", line 372: syntax error before or at: item
+"./sentry.h", line 372: warning: undefined or missing type for: item
+"./sentry.h", line 376: syntax error before or at: item
+"./sentry.h", line 376: warning: undefined or missing type for: item
+"./sentry.h", line 380: syntax error before or at: item
+"./sentry.h", line 380: warning: undefined or missing type for: item
+"./sentry.h", line 380: warning: undefined or missing type for: Event
+"./sentry.h", line 392: syntax error before or at: item
+"./sentry.h", line 392: warning: undefined or missing type for: item
+"./sentry.h", line 396: syntax error before or at: item
+"./sentry.h", line 396: warning: undefined or missing type for: item
+"./sentry.h", line 397: identifier redeclared: printlist
+	current : function() returning void
+	previous: array[10] of array[10] of char : "./sentry.h", line 150
+"./sentry.h", line 406: syntax error before or at: item
+"./sentry.h", line 406: warning: undefined or missing type for: item
+"./sentry.h", line 406: warning: undefined or missing type for: char
+"./sentry.h", line 406: warning: undefined or missing type for: clientdata
+"./sentry.h", line 406: warning: undefined or missing type for: op
+"./sentry.h", line 406: warning: undefined or missing type for: Event
+"./sentry.h", line 406: warning: undefined or missing type for: int
+"./sentry.h", line 417: syntax error before or at: item
+"./sentry.h", line 417: warning: undefined or missing type for: item
+"./sentry.h", line 417: warning: undefined or missing type for: int
+"./sentry.h", line 417: warning: undefined or missing type for: Event
+"./sentry.h", line 430: syntax error before or at: *
+"./sentry.h", line 436: syntax error before or at: item
+"./sentry.h", line 436: warning: undefined or missing type for: item
+"./sentry.h", line 436: warning: undefined or missing type for: int
+"./sentry.h", line 442: syntax error before or at: item
+"./sentry.h", line 442: warning: undefined or missing type for: item
+"./sentry.h", line 442: warning: undefined or missing type for: int
+"./sentry.h", line 446: undefined or not a type: Notifyfunc
+"./sentry.h", line 446: syntax error before or at: sigpollhandler
+"./sentry.h", line 448: syntax error before or at: client
+"./sentry.h", line 448: warning: undefined or missing type for: client
+"./sentry.h", line 448: warning: undefined or missing type for: int
+"./sentry.h", line 448: warning: undefined or missing type for: when
+"./sentry.h", line 449: warning: old-style declaration or incorrect type for: sigpollhandler
+"./sentry.h", line 460: syntax error before or at: item
+"./sentry.h", line 460: warning: undefined or missing type for: item
+"./sentry.h", line 460: warning: undefined or missing type for: int
+"./sentry.h", line 460: warning: undefined or missing type for: Event
+"./sentry.h", line 476: undefined or not a type: Notifyvalue
+"./sentry.h", line 476: syntax error before or at: montoggle
+"./sentry.h", line 479: warning: old-style declaration or incorrect type for: montoggle
+"./sentry.h", line 482: undefined or not a type: Notifyvalue
+"./sentry.h", line 482: syntax error before or at: montoggle1
+"./sentry.h", line 485: warning: old-style declaration or incorrect type for: montoggle1
+"./sentry.h", line 488: undefined or not a type: Notifyvalue
+"./sentry.h", line 488: syntax error before or at: montoggle2
+"./sentry.h", line 491: warning: old-style declaration or incorrect type for: montoggle2
+"./sentry.h", line 502: syntax error before or at: item
+"./sentry.h", line 502: warning: undefined or missing type for: item
+"./sentry.h", line 502: warning: undefined or missing type for: Event
+"./sentry.h", line 508: syntax error before or at: item
+"./sentry.h", line 508: warning: undefined or missing type for: item
+"./sentry.h", line 508: warning: undefined or missing type for: Event
+"./sentry.h", line 508: warning: undefined or missing type for: int
+"sentry.c", line 44: undefined struct/union member: icon_xhot
+"sentry.c", line 45: undefined struct/union member: icon_yhot
+"sentry.c", line 46: undefined struct/union member: icon_fg
+"sentry.c", line 47: undefined struct/union member: icon_bg
+"sentry.c", line 49: improper member use: icon_xhot
+"sentry.c", line 50: improper member use: icon_yhot
+"sentry.c", line 51: improper member use: icon_fg
+"sentry.c", line 52: improper member use: icon_bg
+"sentry.c", line 54: improper member use: icon_xhot
+"sentry.c", line 55: improper member use: icon_yhot
+"sentry.c", line 56: improper member use: icon_fg
+"sentry.c", line 57: improper member use: icon_bg
+"sentry.c", line 59: improper member use: icon_xhot
+"sentry.c", line 60: improper member use: icon_yhot
+"sentry.c", line 61: improper member use: icon_fg
+"sentry.c", line 62: improper member use: icon_bg
+"sentry.c", line 64: improper member use: icon_xhot
+"sentry.c", line 65: improper member use: icon_yhot
+"sentry.c", line 66: improper member use: icon_fg
+"sentry.c", line 67: improper member use: icon_bg
+"sentry.c", line 69: improper member use: icon_xhot
+"sentry.c", line 70: improper member use: icon_yhot
+"sentry.c", line 71: improper member use: icon_fg
+"sentry.c", line 72: improper member use: icon_bg
+"sentry.c", line 74: improper member use: icon_xhot
+"sentry.c", line 75: improper member use: icon_yhot
+"sentry.c", line 76: improper member use: icon_fg
+"sentry.c", line 77: improper member use: icon_bg
+"sentry.c", line 446: undefined symbol: mon_toggle1
+"sentry.c", line 446: warning: improper pointer/integer combination: arg #2
+"sentry.c", line 448: undefined symbol: mon_toggle2
+"sentry.c", line 448: warning: improper pointer/integer combination: arg #2
+"sentry.c", line 450: undefined symbol: sigpoll_handler
+"sentry.c", line 621: undefined struct/union member: icon_fg
+"sentry.c", line 622: undefined struct/union member: icon_bg
+"sentry.c", line 689: undefined struct/union member: ut_host
+"sentry.c", line 689: warning: improper pointer/integer combination: arg #2
+"sentry.c", line 709: improper member use: ut_host
+"sentry.c", line 709: warning: improper pointer/integer combination: arg #2
+"sentry.c", line 713: improper member use: ut_host
+"sentry.c", line 1265: undefined symbol: mon_toggle1
+"sentry.c", line 1265: warning: improper pointer/integer combination: arg #2
+"sentry.c", line 1274: undefined symbol: mon_toggle2
+"sentry.c", line 1274: warning: improper pointer/integer combination: arg #2
+"sentry.c", line 1376: warning: using out of scope declaration: set_iconset
+"sentry.c", line 1508: warning: using out of scope declaration: get_list
+"sentry.c", line 1512: warning: using out of scope declaration: test_sound
+"sentry.c", line 1523: identifier redeclared: test_sound
+	current : function(int) returning void
+	previous: function(void) returning int : "sentry.c", line 1493
+"sentry.c", line 1597: warning: using out of scope declaration: audio_open
+"sentry.c", line 1633: identifier redeclared: getprint_list
+	current : function(pointer to char) returning void
+	previous: function(void) returning int : "sentry.c", line 431
+"sentry.c", line 1645: cannot do pointer arithmetic on operand of unknown size
+"sentry.c", line 1645: warning: argument #1 is incompatible with prototype:
+	prototype: pointer to char : "/usr/include/string.h", line 35
+	argument : pointer to function() returning void
+"sentry.c", line 1657: cannot do pointer arithmetic on operand of unknown size
+"sentry.c", line 1659: cannot do pointer arithmetic on operand of unknown size
+"sentry.c", line 1659: warning: argument #2 is incompatible with prototype:
+	prototype: pointer to const char : "/usr/include/string.h", line 32
+	argument : pointer to function() returning void
+"sentry.c", line 1671: identifier redeclared: propchange_print
+	current : function(ulong) returning void
+	previous: function(void) returning int : "sentry.c", line 1279
+"sentry.c", line 1676: cannot do pointer arithmetic on operand of unknown size
+"sentry.c", line 1676: warning: argument #2 is incompatible with prototype:
+	prototype: pointer to const char : "/usr/include/string.h", line 32
+	argument : pointer to function() returning void
+"sentry.c", line 1677: cannot do pointer arithmetic on operand of unknown size
+"sentry.c", line 1677: warning: argument #2 is incompatible with prototype:
+	prototype: pointer to const char : "/usr/include/string.h", line 32
+	argument : pointer to function() returning void
+"sentry.c", line 1727: identifier redeclared: set_iconset
+	current : function(void) returning void
+	previous: function(void) returning int : "sentry.c", line 433
+"sentry.c", line 1734: undefined struct/union member: cursorm_bits
+"sentry.c", line 1735: improper member use: cursorm_bits
+"sentry.c", line 1738: undefined struct/union member: icon_xhot
+"sentry.c", line 1739: undefined struct/union member: icon_yhot
+"sentry.c", line 1740: undefined struct/union member: icon_fg
+"sentry.c", line 1741: undefined struct/union member: icon_bg
+"sentry.c", line 1746: undefined struct/union member: l_bits
+"sentry.c", line 1747: undefined struct/union member: r_bits
+"sentry.c", line 1748: undefined struct/union member: c_bits
+"sentry.c", line 1749: undefined struct/union member: s1_bits
+"sentry.c", line 1750: undefined struct/union member: s2_bits
+"sentry.c", line 1751: undefined struct/union member: s3_bits
+"sentry.c", line 1752: undefined struct/union member: s4_bits
+"sentry.c", line 1753: undefined struct/union member: s5_bits
+"sentry.c", line 1754: undefined struct/union member: s6_bits
+"sentry.c", line 1756: undefined struct/union member: s1p_bits
+"sentry.c", line 1757: undefined struct/union member: s2p_bits
+"sentry.c", line 1758: undefined struct/union member: s3p_bits
+"sentry.c", line 1759: undefined struct/union member: s4p_bits
+"sentry.c", line 1760: undefined struct/union member: s5p_bits
+"sentry.c", line 1761: undefined struct/union member: s6p_bits
+"sentry.c", line 1763: undefined struct/union member: lm_bits
+"sentry.c", line 1764: undefined struct/union member: rm_bits
+"sentry.c", line 1765: undefined struct/union member: cm_bits
+"sentry.c", line 1767: undefined struct/union member: s1m_bits
+"sentry.c", line 1768: undefined struct/union member: s2m_bits
+"sentry.c", line 1769: undefined struct/union member: s3m_bits
+"sentry.c", line 1770: undefined struct/union member: s4m_bits
+"sentry.c", line 1771: undefined struct/union member: s5m_bits
+"sentry.c", line 1772: undefined struct/union member: s6m_bits
+"sentry.c", line 1774: undefined struct/union member: s1mp_bits
+"sentry.c", line 1775: undefined struct/union member: s2mp_bits
+"sentry.c", line 1776: undefined struct/union member: s3mp_bits
+"sentry.c", line 1777: undefined struct/union member: s4mp_bits
+"sentry.c", line 1778: undefined struct/union member: s5mp_bits
+"sentry.c", line 1779: undefined struct/union member: s6mp_bits
+"sentry.c", line 1789: identifier redeclared: create_all
+	current : function(void) returning void
+	previous: function(void) returning int : "sentry.c", line 430
+"sentry.c", line 1805: undefined symbol: file_bits
+"sentry.c", line 1812: undefined symbol: dir_bits
+"sentry.c", line 1819: undefined symbol: sys_bits
+"sentry.c", line 1826: undefined symbol: link_bits
+"sentry.c", line 1833: undefined symbol: pipe_bits
+"sentry.c", line 1840: undefined symbol: sock_bits
+"sentry.c", line 1847: undefined symbol: core_bits
+"sentry.c", line 1853: undefined symbol: compressed_bits
+"sentry.c", line 1860: undefined symbol: csource_bits
+"sentry.c", line 1867: undefined symbol: object_bits
+"sentry.c", line 1874: undefined symbol: header_bits
+"sentry.c", line 1881: undefined symbol: exe_bits
+"sentry.c", line 1888: undefined symbol: aml_bits
+"sentry.c", line 1895: undefined symbol: sound_bits
+"sentry.c", line 1901: undefined symbol: ps_bits
+"sentry.c", line 1908: undefined symbol: rast_bits
+"sentry.c", line 1915: undefined symbol: mail_bits
+"sentry.c", line 1921: undefined symbol: shell_bits
+"sentry.c", line 1928: undefined symbol: wp_bits
+"sentry.c", line 1935: undefined symbol: bm_bits
+"sentry.c", line 1942: undefined symbol: gif_bits
+"sentry.c", line 1948: undefined symbol: make_bits
+"sentry.c", line 1955: undefined symbol: info_bits
+"sentry.c", line 1962: undefined symbol: lib_bits
+"sentry.c", line 1969: undefined symbol: gis_bits
+"sentry.c", line 1976: undefined symbol: im_bits
+"sentry.c", line 1983: undefined symbol: gra_bits
+"sentry.c", line 1989: undefined symbol: plt_bits
+"sentry.c", line 1995: undefined symbol: XRs_bits
+"sentry.c", line 2002: undefined symbol: XRh_bits
+"sentry.c", line 2009: undefined symbol: XRr_bits
+"sentry.c", line 2016: undefined symbol: XRe_bits
+"sentry.c", line 2024: undefined symbol: XRd_bits
+"sentry.c", line 2031: undefined symbol: empty_bits
+"sentry.c", line 2037: undefined struct/union member: c_bits
+"sentry.c", line 2043: improper member use: c_bits
+"sentry.c", line 2049: undefined struct/union member: l_bits
+"sentry.c", line 2055: improper member use: l_bits
+"sentry.c", line 2061: improper member use: c_bits
+"sentry.c", line 2067: improper member use: c_bits
+"sentry.c", line 2073: improper member use: c_bits
+"sentry.c", line 2079: undefined struct/union member: cursor_bits
+"sentry.c", line 2085: improper member use: cursor_bits
+"sentry.c", line 2112: undefined symbol: logo_bits
+"sentry.c", line 2118: undefined symbol: logo_mbits
+"sentry.c", line 2125: undefined symbol: play_bits
+"sentry.c", line 2131: undefined symbol: null_bits
+"sentry.c", line 2137: undefined symbol: head_phone_bits
+"sentry.c", line 2143: undefined symbol: speaker_bits
+"sentry.c", line 2149: improper member use: l_bits
+"sentry.c", line 2155: undefined struct/union member: r_bits
+"sentry.c", line 2161: improper member use: c_bits
+"sentry.c", line 2167: undefined struct/union member: s1_bits
+"sentry.c", line 2173: undefined struct/union member: s2_bits
+"sentry.c", line 2179: undefined struct/union member: s3_bits
+"sentry.c", line 2185: undefined struct/union member: s4_bits
+"sentry.c", line 2191: undefined struct/union member: s5_bits
+"sentry.c", line 2197: undefined struct/union member: s6_bits
+"sentry.c", line 2203: undefined struct/union member: s1p_bits
+"sentry.c", line 2208: undefined struct/union member: s2p_bits
+"sentry.c", line 2213: undefined struct/union member: s3p_bits
+"sentry.c", line 2218: undefined struct/union member: s4p_bits
+"sentry.c", line 2223: undefined struct/union member: s5p_bits
+"sentry.c", line 2228: undefined struct/union member: s6p_bits
+"sentry.c", line 2233: undefined struct/union member: lm_bits
+"sentry.c", line 2240: undefined struct/union member: rm_bits
+"sentry.c", line 2247: undefined struct/union member: cm_bits
+"sentry.c", line 2254: undefined struct/union member: s1m_bits
+"sentry.c", line 2261: undefined struct/union member: s2m_bits
+"sentry.c", line 2268: undefined struct/union member: s3m_bits
+"sentry.c", line 2275: undefined struct/union member: s4m_bits
+"sentry.c", line 2282: undefined struct/union member: s5m_bits
+"sentry.c", line 2289: undefined struct/union member: s6m_bits
+"sentry.c", line 2296: undefined struct/union member: s1mp_bits
+"sentry.c", line 2302: undefined struct/union member: s2mp_bits
+"sentry.c", line 2308: undefined struct/union member: s3mp_bits
+"sentry.c", line 2314: undefined struct/union member: s4mp_bits
+"sentry.c", line 2320: undefined struct/union member: s5mp_bits
+"sentry.c", line 2326: undefined struct/union member: s6mp_bits
+"sentry.c", line 2421: undefined symbol: sound_flag_toggle
+"sentry.c", line 2492: undefined symbol: mon_toggle1
+"sentry.c", line 2509: undefined symbol: mon_toggle2
+"sentry.c", line 2626: undefined symbol: show_phase_choice
+"sentry.c", line 2676: undefined symbol: sound_output
+"sentry.c", line 2975: identifier redeclared: get_list
+	current : function(ulong, int) returning void
+	previous: function(void) returning int : "sentry.c", line 1489
+"sentry.c", line 2997: warning: identifier redeclared: read_dir
+	current : function(pointer to char, pointer to char, int) returning int
+	previous: function(void) returning int : "sentry.c", line 2985
+cc: Fatal error in /opt/SUNWspro/bin/../SC4.0/bin/acomp
+Status 139
+*** Error code 139
+make: Fatal error: Command failed for target `sentry.o'

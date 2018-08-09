@@ -1,0 +1,68 @@
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+.INIT:
+	echo "Copyright (c) 1992 by Roadnet Technologies, Inc."
+	echo "Copyright (c) 1992 by United Parcel Service of America."
+	echo "All rights reserved."
+	echo ""
+.BUILT_LAST_MAKE_RUN:
+wgmain.o:	wgmain.h /usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/va_list.h /usr/openwin/include/xview/xview.h /usr/openwin/include/xview/xview_xvin.h /usr/include/signal.h /usr/include/sys/signal.h /usr/include/sys/unistd.h /usr/include/sys/siginfo.h /usr/include/sys/machsig.h /usr/include/sys/time.h /usr/include/sys/types.h /usr/include/sys/isa_defs.h /usr/include/sys/machtypes.h /usr/include/sys/select.h /usr/include/time.h /usr/include/sys/procset.h
+.BUILT_LAST_MAKE_RUN:
+wgmain.o:	/usr/openwin/include/pixrect/pixrect.h /usr/openwin/include/pixrect/pr_planegroups.h /usr/openwin/include/pixrect/pr_util.h /usr/openwin/include/pixrect/memvar.h /usr/openwin/include/pixrect/pixfont.h /usr/openwin/include/pixrect/traprop.h /usr/openwin/include/pixrect/pr_line.h /usr/include/stdlib.h /usr/openwin/include/xview/xv_c_types.h /usr/openwin/include/xview/generic.h /usr/openwin/include/xview/pkg_public.h /usr/openwin/include/xview/pkg.h
+.BUILT_LAST_MAKE_RUN:
+wgmain.o:	/usr/openwin/include/xview/attr.h /usr/openwin/include/xview/base.h /usr/include/string.h /usr/include/malloc.h /usr/include/errno.h /usr/include/sys/errno.h /usr/openwin/include/xview/notify.h /usr/include/sys/wait.h /usr/include/sys/resource.h /usr/include/sys/ucontext.h /usr/include/sys/regset.h /usr/include/v7/sys/privregs.h /usr/include/v7/sys/psr.h /usr/include/sys/fsr.h /usr/include/stdarg.h /usr/openwin/include/xview/xv_error.h /usr/openwin/include/xview/sun.h
+.BUILT_LAST_MAKE_RUN:
+wgmain.o:	/usr/openwin/include/xview/server.h /usr/openwin/include/xview/screen.h /usr/openwin/include/xview/pixwin.h /usr/openwin/include/xview/rect.h /usr/openwin/include/xview/rectlist.h /usr/openwin/include/xview/win_input.h /usr/openwin/include/X11/Xlib.h /usr/openwin/include/X11/X.h /usr/openwin/include/X11/Xfuncproto.h /usr/openwin/include/X11/Xosdefs.h /usr/include/stddef.h /usr/openwin/include/xview/win_event.h /usr/openwin/include/xview/xv_version.h
+.BUILT_LAST_MAKE_RUN:
+wgmain.o:	/usr/openwin/include/xview/icon.h /usr/openwin/include/xview/window.h /usr/openwin/include/xview/drawable.h /usr/openwin/include/xview/attrol.h /usr/openwin/include/xview/svrimage.h /usr/openwin/include/xview/frame.h /usr/openwin/include/xview/openmenu.h /usr/openwin/include/xview/panel.h /usr/openwin/include/xview/canvas.h /usr/openwin/include/xview/openwin.h /usr/openwin/include/xview/font.h /usr/openwin/include/xview/notice.h 
+	cc -I/usr/openwin/include -L/opt/SUNWspro/SC4.0/lib -L/usr/openwin/lib  -c  wgmain.c
+.BUILT_LAST_MAKE_RUN:
+genfunct.o:	genfunct.h /usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/va_list.h /usr/include/stdlib.h /usr/include/string.h /usr/include/ctype.h /usr/openwin/include/xview/xview.h /usr/openwin/include/xview/xview_xvin.h /usr/include/signal.h /usr/include/sys/signal.h /usr/include/sys/unistd.h /usr/include/sys/siginfo.h /usr/include/sys/machsig.h /usr/include/sys/time.h /usr/include/sys/types.h /usr/include/sys/isa_defs.h /usr/include/sys/machtypes.h
+.BUILT_LAST_MAKE_RUN:
+genfunct.o:	/usr/include/sys/select.h /usr/include/time.h /usr/include/sys/procset.h /usr/openwin/include/pixrect/pixrect.h /usr/openwin/include/pixrect/pr_planegroups.h /usr/openwin/include/pixrect/pr_util.h /usr/openwin/include/pixrect/memvar.h /usr/openwin/include/pixrect/pixfont.h /usr/openwin/include/pixrect/traprop.h /usr/openwin/include/pixrect/pr_line.h /usr/openwin/include/xview/xv_c_types.h /usr/openwin/include/xview/generic.h /usr/openwin/include/xview/pkg_public.h
+.BUILT_LAST_MAKE_RUN:
+genfunct.o:	/usr/openwin/include/xview/pkg.h /usr/openwin/include/xview/attr.h /usr/openwin/include/xview/base.h /usr/include/malloc.h /usr/include/errno.h /usr/include/sys/errno.h /usr/openwin/include/xview/notify.h /usr/include/sys/wait.h /usr/include/sys/resource.h /usr/include/sys/ucontext.h /usr/include/sys/regset.h /usr/include/v7/sys/privregs.h /usr/include/v7/sys/psr.h /usr/include/sys/fsr.h /usr/include/stdarg.h /usr/openwin/include/xview/xv_error.h
+.BUILT_LAST_MAKE_RUN:
+genfunct.o:	/usr/openwin/include/xview/sun.h /usr/openwin/include/xview/server.h /usr/openwin/include/xview/screen.h /usr/openwin/include/xview/pixwin.h /usr/openwin/include/xview/rect.h /usr/openwin/include/xview/rectlist.h /usr/openwin/include/xview/win_input.h /usr/openwin/include/X11/Xlib.h /usr/openwin/include/X11/X.h /usr/openwin/include/X11/Xfuncproto.h /usr/openwin/include/X11/Xosdefs.h /usr/include/stddef.h /usr/openwin/include/xview/win_event.h /usr/openwin/include/xview/xv_version.h
+.BUILT_LAST_MAKE_RUN:
+genfunct.o:	/usr/openwin/include/xview/icon.h /usr/openwin/include/xview/window.h /usr/openwin/include/xview/drawable.h /usr/openwin/include/xview/attrol.h /usr/openwin/include/xview/svrimage.h /usr/openwin/include/xview/frame.h /usr/openwin/include/xview/openmenu.h /usr/openwin/include/xview/panel.h /usr/openwin/include/xview/canvas.h /usr/openwin/include/xview/openwin.h /usr/openwin/include/xview/font.h /usr/openwin/include/xview/notice.h /usr/openwin/include/xview/textsw.h
+.BUILT_LAST_MAKE_RUN:
+genfunct.o:	/usr/openwin/include/xview/sel_attrs.h /usr/openwin/include/xview/cms.h 
+	cc -I/usr/openwin/include -L/opt/SUNWspro/SC4.0/lib -L/usr/openwin/lib  -c  genfunct.c
+.BUILT_LAST_MAKE_RUN:
+wgxview.o:	wgxview.h /usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/va_list.h /usr/openwin/include/xview/xview.h /usr/openwin/include/xview/xview_xvin.h /usr/include/signal.h /usr/include/sys/signal.h /usr/include/sys/unistd.h /usr/include/sys/siginfo.h /usr/include/sys/machsig.h /usr/include/sys/time.h /usr/include/sys/types.h /usr/include/sys/isa_defs.h /usr/include/sys/machtypes.h /usr/include/sys/select.h /usr/include/time.h /usr/include/sys/procset.h
+.BUILT_LAST_MAKE_RUN:
+wgxview.o:	/usr/openwin/include/pixrect/pixrect.h /usr/openwin/include/pixrect/pr_planegroups.h /usr/openwin/include/pixrect/pr_util.h /usr/openwin/include/pixrect/memvar.h /usr/openwin/include/pixrect/pixfont.h /usr/openwin/include/pixrect/traprop.h /usr/openwin/include/pixrect/pr_line.h /usr/include/stdlib.h /usr/openwin/include/xview/xv_c_types.h /usr/openwin/include/xview/generic.h /usr/openwin/include/xview/pkg_public.h /usr/openwin/include/xview/pkg.h
+.BUILT_LAST_MAKE_RUN:
+wgxview.o:	/usr/openwin/include/xview/attr.h /usr/openwin/include/xview/base.h /usr/include/string.h /usr/include/malloc.h /usr/include/errno.h /usr/include/sys/errno.h /usr/openwin/include/xview/notify.h /usr/include/sys/wait.h /usr/include/sys/resource.h /usr/include/sys/ucontext.h /usr/include/sys/regset.h /usr/include/v7/sys/privregs.h /usr/include/v7/sys/psr.h /usr/include/sys/fsr.h /usr/include/stdarg.h /usr/openwin/include/xview/xv_error.h /usr/openwin/include/xview/sun.h
+.BUILT_LAST_MAKE_RUN:
+wgxview.o:	/usr/openwin/include/xview/server.h /usr/openwin/include/xview/screen.h /usr/openwin/include/xview/pixwin.h /usr/openwin/include/xview/rect.h /usr/openwin/include/xview/rectlist.h /usr/openwin/include/xview/win_input.h /usr/openwin/include/X11/Xlib.h /usr/openwin/include/X11/X.h /usr/openwin/include/X11/Xfuncproto.h /usr/openwin/include/X11/Xosdefs.h /usr/include/stddef.h /usr/openwin/include/xview/win_event.h /usr/openwin/include/xview/xv_version.h
+.BUILT_LAST_MAKE_RUN:
+wgxview.o:	/usr/openwin/include/xview/icon.h /usr/openwin/include/xview/window.h /usr/openwin/include/xview/drawable.h /usr/openwin/include/xview/attrol.h /usr/openwin/include/xview/svrimage.h /usr/openwin/include/xview/frame.h /usr/openwin/include/xview/openmenu.h /usr/openwin/include/xview/panel.h /usr/openwin/include/xview/canvas.h /usr/openwin/include/xview/openwin.h /usr/openwin/include/xview/font.h /usr/openwin/include/xview/notice.h /usr/openwin/include/xview/textsw.h
+.BUILT_LAST_MAKE_RUN:
+wgxview.o:	/usr/openwin/include/xview/sel_attrs.h /usr/openwin/include/xview/seln.h /usr/openwin/include/xview/sel_svc.h /usr/include/netinet/in.h /usr/include/sys/stream.h /usr/include/sys/vnode.h /usr/include/sys/t_lock.h /usr/include/sys/machlock.h /usr/include/sys/dki_lkinfo.h /usr/include/sys/dl.h /usr/include/sys/sleepq.h /usr/include/sys/turnstile.h /usr/include/sys/param.h /usr/include/sys/pirec.h /usr/include/sys/mutex.h /usr/include/sys/rwlock.h /usr/include/sys/semaphore.h
+.BUILT_LAST_MAKE_RUN:
+wgxview.o:	/usr/include/sys/condvar.h /usr/include/sys/cred.h /usr/include/sys/uio.h /usr/include/vm/seg_enum.h /usr/include/sys/poll.h /usr/include/sys/strmdep.h /usr/include/sys/byteorder.h /usr/include/sys/socket.h /usr/include/sys/netconfig.h /usr/openwin/include/X11/Xatom.h /usr/include/rpc/rpc.h /usr/include/rpc/types.h /usr/include/tiuser.h /usr/include/sys/tiuser.h /usr/include/fcntl.h /usr/include/sys/fcntl.h /usr/include/memory.h /usr/include/rpc/xdr.h
+.BUILT_LAST_MAKE_RUN:
+wgxview.o:	/usr/include/rpc/auth.h /usr/include/rpc/clnt.h /usr/include/rpc/rpc_com.h /usr/include/rpc/rpc_msg.h /usr/include/rpc/auth_sys.h /usr/include/rpc/auth_des.h /usr/include/rpc/auth_kerb.h /usr/include/kerberos/krb.h /usr/include/kerberos/mit-copyright.h /usr/include/kerberos/des.h /usr/include/rpc/svc.h /usr/include/sys/tihdr.h /usr/include/rpc/svc_auth.h /usr/include/rpc/rpcb_clnt.h /usr/include/rpc/rpcb_prot.h wgmain.h 
+	cc -I/usr/openwin/include -L/opt/SUNWspro/SC4.0/lib -L/usr/openwin/lib  -c  wgxview.c
+.BUILT_LAST_MAKE_RUN:
+wgcreateall.o:	wgcreateall.h /usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/va_list.h /usr/include/stdlib.h /usr/include/string.h /usr/include/ctype.h /usr/openwin/include/xview/xview.h /usr/openwin/include/xview/xview_xvin.h /usr/include/signal.h /usr/include/sys/signal.h /usr/include/sys/unistd.h /usr/include/sys/siginfo.h /usr/include/sys/machsig.h /usr/include/sys/time.h /usr/include/sys/types.h /usr/include/sys/isa_defs.h /usr/include/sys/machtypes.h
+.BUILT_LAST_MAKE_RUN:
+wgcreateall.o:	/usr/include/sys/select.h /usr/include/time.h /usr/include/sys/procset.h /usr/openwin/include/pixrect/pixrect.h /usr/openwin/include/pixrect/pr_planegroups.h /usr/openwin/include/pixrect/pr_util.h /usr/openwin/include/pixrect/memvar.h /usr/openwin/include/pixrect/pixfont.h /usr/openwin/include/pixrect/traprop.h /usr/openwin/include/pixrect/pr_line.h /usr/openwin/include/xview/xv_c_types.h /usr/openwin/include/xview/generic.h /usr/openwin/include/xview/pkg_public.h
+.BUILT_LAST_MAKE_RUN:
+wgcreateall.o:	/usr/openwin/include/xview/pkg.h /usr/openwin/include/xview/attr.h /usr/openwin/include/xview/base.h /usr/include/malloc.h /usr/include/errno.h /usr/include/sys/errno.h /usr/openwin/include/xview/notify.h /usr/include/sys/wait.h /usr/include/sys/resource.h /usr/include/sys/ucontext.h /usr/include/sys/regset.h /usr/include/v7/sys/privregs.h /usr/include/v7/sys/psr.h /usr/include/sys/fsr.h /usr/include/stdarg.h /usr/openwin/include/xview/xv_error.h
+.BUILT_LAST_MAKE_RUN:
+wgcreateall.o:	/usr/openwin/include/xview/sun.h /usr/openwin/include/xview/server.h /usr/openwin/include/xview/screen.h /usr/openwin/include/xview/pixwin.h /usr/openwin/include/xview/rect.h /usr/openwin/include/xview/rectlist.h /usr/openwin/include/xview/win_input.h /usr/openwin/include/X11/Xlib.h /usr/openwin/include/X11/X.h /usr/openwin/include/X11/Xfuncproto.h /usr/openwin/include/X11/Xosdefs.h /usr/include/stddef.h /usr/openwin/include/xview/win_event.h /usr/openwin/include/xview/xv_version.h
+.BUILT_LAST_MAKE_RUN:
+wgcreateall.o:	/usr/openwin/include/xview/icon.h /usr/openwin/include/xview/window.h /usr/openwin/include/xview/drawable.h /usr/openwin/include/xview/attrol.h /usr/openwin/include/xview/svrimage.h /usr/openwin/include/xview/frame.h /usr/openwin/include/xview/openmenu.h /usr/openwin/include/xview/panel.h /usr/openwin/include/xview/canvas.h /usr/openwin/include/xview/openwin.h /usr/openwin/include/xview/font.h /usr/openwin/include/xview/tty.h /usr/openwin/include/xview/notice.h
+.BUILT_LAST_MAKE_RUN:
+wgcreateall.o:	/usr/openwin/include/xview/textsw.h /usr/openwin/include/xview/sel_attrs.h dictionary.icon dictionary_mask.icon 
+	cc -I/usr/openwin/include -L/opt/SUNWspro/SC4.0/lib -L/usr/openwin/lib  -c  wgcreateall.c
+.BUILT_LAST_MAKE_RUN:
+soundex.o:	/usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/va_list.h /usr/include/stdlib.h /usr/include/string.h /usr/include/ctype.h /usr/include/assert.h 
+	cc -I/usr/openwin/include -L/opt/SUNWspro/SC4.0/lib -L/usr/openwin/lib  -c  soundex.c
+.BUILT_LAST_MAKE_RUN:
+wg:	/usr/lib/libmp.so.1 /usr/openwin/lib/libXext.so.0 /usr/lib/libw.so.1 /usr/lib/libdl.so.1 /usr/lib/libintl.so.1 /usr/lib/libsocket.so.1 /usr/lib/libnsl.so.1 /usr/lib/libc.so /usr/openwin/lib/libX.so /usr/openwin/lib/libtt.so /usr/openwin/lib/libolgx.so /usr/openwin/lib/libxview.so 
+	cc -L/usr/openwin//lib  -o a.out wgmain.o wgcreateall.o wgxview.o soundex.o genfunct.o -lxview -lolgx -ltt -lX
+	mv a.out wg

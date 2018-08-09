@@ -1,0 +1,9 @@
+dt.c was moved to f1.c
+grade.c was moved to f2.c
+list.c was moved to f3.c
+play.c was moved to f4.c
+raw2audio.c was moved to f5.c
+sentry.c was moved to f6.c
+sentrycreate.c was moved to f7.c
+sort.c was moved to f8.c
+test.c was moved to f9.c

@@ -1,0 +1,13 @@
+,soundex.c was moved to f1.c
+gaintool.c was moved to f2.c
+gaintoolui.c was moved to f3.c
+genfunct.c was moved to f4.c
+play.c was moved to f5.c
+ptcreateall.c was moved to f6.c
+ptm.c was moved to f7.c
+ptmain.c was moved to f8.c
+ptxiew.c was moved to f9.c
+ptxview.c was moved to f10.c
+soundex.c was moved to f11.c
+soundex.old.c was moved to f12.c
+tstr.c was moved to f13.c

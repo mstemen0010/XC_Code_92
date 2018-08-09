@@ -1,0 +1,24 @@
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+.INIT:
+	echo "Copyright (c) 1992 by Roadnet Technologies, Inc."
+	echo "Copyright (c) 1992 by United Parcel Service of America."
+	echo "All rights reserved."
+	echo ""
+.BUILT_LAST_MAKE_RUN:
+ptcreateall.o:	ptcreate.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/stdio.h /usr/include/sys/feature_tests.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/stdlib.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/string.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/ctype.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/math.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/floatingpoint.h
+.BUILT_LAST_MAKE_RUN:
+ptcreateall.o:	/opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/sys/ieeefp.h /usr/openwin/include/xview/xview.h /usr/openwin/include/xview/xview_xvin.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/signal.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/sys/signal.h /usr/include/sys/unistd.h /usr/include/sys/siginfo.h /usr/include/sys/machsig.h /usr/include/sys/time.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/sys/types.h
+.BUILT_LAST_MAKE_RUN:
+ptcreateall.o:	/opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/sys/isa_defs.h /usr/include/sys/machtypes.h /usr/include/sys/select.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/time.h /usr/include/sys/procset.h /usr/openwin/include/pixrect/pixrect.h /usr/openwin/include/pixrect/pr_planegroups.h /usr/openwin/include/pixrect/pr_util.h /usr/openwin/include/pixrect/memvar.h /usr/openwin/include/pixrect/pixfont.h /usr/openwin/include/pixrect/traprop.h
+.BUILT_LAST_MAKE_RUN:
+ptcreateall.o:	/usr/openwin/include/pixrect/pr_line.h /usr/openwin/include/xview/xv_c_types.h /usr/openwin/include/xview/generic.h /usr/openwin/include/xview/pkg_public.h /usr/openwin/include/xview/pkg.h /usr/openwin/include/xview/attr.h /usr/openwin/include/xview/base.h /usr/include/malloc.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/errno.h /usr/include/sys/errno.h /usr/openwin/include/xview/notify.h /usr/include/sys/wait.h /usr/include/sys/resource.h
+.BUILT_LAST_MAKE_RUN:
+ptcreateall.o:	/usr/include/sys/ucontext.h /usr/include/sys/regset.h /usr/include/v7/sys/privregs.h /usr/include/v7/sys/psr.h /usr/include/sys/fsr.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/stdarg.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/va-sparc.h /usr/openwin/include/xview/xv_error.h /usr/openwin/include/xview/sun.h /usr/openwin/include/xview/server.h /usr/openwin/include/xview/screen.h /usr/openwin/include/xview/pixwin.h
+.BUILT_LAST_MAKE_RUN:
+ptcreateall.o:	/usr/openwin/include/xview/rect.h /usr/openwin/include/xview/rectlist.h /usr/openwin/include/xview/win_input.h /usr/openwin/include/X11/Xlib.h /usr/openwin/include/X11/X.h /usr/openwin/include/X11/Xfuncproto.h /usr/openwin/include/X11/Xosdefs.h /opt/FSFgcc/lib/gcc-lib/sparc-sun-solaris2.5/2.7.2/include/stddef.h /usr/openwin/include/xview/win_event.h /usr/openwin/include/xview/xv_version.h /usr/openwin/include/xview/icon.h /usr/openwin/include/xview/window.h
+.BUILT_LAST_MAKE_RUN:
+ptcreateall.o:	/usr/openwin/include/xview/drawable.h /usr/openwin/include/xview/attrol.h /usr/openwin/include/xview/svrimage.h /usr/openwin/include/xview/frame.h /usr/openwin/include/xview/openmenu.h /usr/openwin/include/xview/panel.h /usr/openwin/include/xview/canvas.h /usr/openwin/include/xview/openwin.h /usr/openwin/include/xview/font.h /usr/openwin/include/xview/tty.h /usr/openwin/include/xview/notice.h /usr/openwin/include/xview/textsw.h /usr/openwin/include/xview/sel_attrs.h
+.BUILT_LAST_MAKE_RUN:
+ptcreateall.o:	/usr/openwin/include/xview/cms.h play.h ../icons/play.icon ../icons/null16.icon ../icons/headphones.icon ../icons/speaker.icon ../icons/arrowf.icon ../icons/arrowb.icon ../icons/Autodial.icon ../icons/phonebook.icon ../icons/phonebookmask.icon ../icons/phoneimage.icon ../icons/phimage.icon ../icons/bkimage.icon gaintoolui.h 
+	gcc -I/usr/openwin/include -I/usr/demo/SOUND -I/usr/openwin/share/include -I. -DMAIN  -c  ptcreateall.c

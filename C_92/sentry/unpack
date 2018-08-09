@@ -1,0 +1,18 @@
+#! /bin/csh -f
+
+set filename = $1
+#! /bin/csh -f
+
+set fileName = $1
+set count = 0
+set lineCount = `fetchline -n 100000000 $fileName`    
+while ($count < $lineCount)
+	set line = `fetchline -n $count $fileName`
+	set source = `echo $line | cut -f5 -d" "`
+	set target = `echo $line | cut -f1 -d" "`	
+	echo "Renaming $source to $target"
+	mv $source $target
+	@ count = $count + 1
+end
+
+	echo $fileName : $lineCount
