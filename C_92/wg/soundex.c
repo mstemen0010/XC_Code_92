@@ -4,16 +4,6 @@
 **	File: %M%
 **	Created on:Tue May 11 12:38:06 EDT 1993
 **
-**	The use, disclosure, reproduction, modification, transfer, or
-**	transmittal of this work for any purpose in any form or by
-**	any means without the written permission of United Parcel
-**	Service is strictly prohibited.
-**
-**	Confidential, Unpublished Property of United Parcel Service.
-**	Use and Distribution Limited Solely to Authorized Personnel.
-**
-**	Copyright 1993 United Parcel Service of America, Inc.
-**	All Rights Reserved.
 **	
 **	Purpose: 
 **
